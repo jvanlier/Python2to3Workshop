@@ -9,7 +9,7 @@ Try to convert both example.py and test.py to Python 3!
 4. Run the `2to3` source-to-source translator over your source code tree. Run the result of the translation under Python 3. Manually fix up any remaining issues, fixing problems until all tests pass again.
 
 ## Running unit tests
-`python -m unittest test.py`
+`python -m unittest test`
 
-Or (easier): `pip install nose` (in both your Python 2 and Python 3 environment) and just run `nosetests` when you're in the directory of this repo (might have to specify the full path, for example `~/anaconda/envs/py3k/bin/nosetests`)
+Or (easier): `pip install nose` (in both your Python 2 and Python 3 environment) and just run `nosetests` when you're in the directory of this repo.
 
